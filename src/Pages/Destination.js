@@ -16,7 +16,7 @@ function Destination() {
             </article>
 
             <aside className="destination-title">
-                <p>Select A City to Begin Exploring its available Properties!</p>
+                <p>Select A City to Begin Exploring its Available Properties!</p>
                 <button>Explore</button>
             </aside>
             <main className='destination-images'>

@@ -7,7 +7,7 @@ function Services(props) {
 
             <article className="our-services-subtitle">
                 <h1>Our Services</h1>
-                <p>When The Dreams Come True, We Are Happy To Help in every step of the way!</p>
+                <p>When The Dreams Come True, We Are Happy To Help in Every Step of the Way!</p>
             </article>
             <div className='box'>
                 <div className='service-box'>
