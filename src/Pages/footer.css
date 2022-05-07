@@ -1,0 +1,111 @@
+ .footer-wrapper {
+     margin: 5% 0% 0% 5%;
+     line-height: 2.3;
+     color: #2a3741;
+     padding-bottom: 2%;
+ }
+ 
+ span {
+     color: #f18739;
+ }
+ 
+ .footer-text {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .footer-text h1 {
+     font-size: 19px;
+ }
+ 
+ .footer-text p {
+     font-size: 15px;
+ }
+ 
+ .icons {
+     width: 150px;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .icons i {
+     font-size: 1.1em;
+     color: black;
+ }
+ 
+ @media only screen and (max-width: 480px) and (min-width: 320px) {
+     .footer-wrapper {
+         margin: 5% 0% 0% 5%;
+         line-height: 2.3;
+         color: #2a3741;
+     }
+     .footer-text {
+         display: flex;
+         flex-direction: column;
+     }
+     .footer-text div {
+         margin-top: 7%;
+     }
+     .footer-text h1 {
+         font-size: 18px;
+     }
+     .footer-text p {
+         font-size: 17px;
+     }
+ }
+ 
+ @media only screen and (max-width: 768px) and (min-width: 481px) {
+     .footer-wrapper {
+         margin: 5% 0% 0% 5%;
+         line-height: 2.3;
+         color: #2a3741;
+     }
+     .footer-wrapper h1 {
+         font-size: 35px;
+     }
+     .footer-text {
+         display: flex;
+         flex-direction: column;
+     }
+     .footer-text div {
+         margin-top: 7%;
+     }
+     .footer-text a {
+         font-size: 21px;
+         color: #2a3741;
+     }
+     .footer-text h1 {
+         font-size: 30px;
+     }
+     .footer-text p {
+         font-size: 25px;
+     }
+ }
+ 
+ @media only screen and (max-width: 1024px) and (min-width: 769px) {
+     .footer-wrapper {
+         margin: 5% 0% 0% 5%;
+         line-height: 2.3;
+         color: #2a3741;
+     }
+     .footer-wrapper h1 {
+         font-size: 40px;
+     }
+     .footer-text {
+         display: flex;
+         flex-direction: column;
+     }
+     .footer-text div {
+         margin-top: 7%;
+     }
+     .footer-text a {
+         font-size: 25px;
+         color: #2a3741;
+     }
+     .footer-text h1 {
+         font-size: 32px;
+     }
+     .footer-text p {
+         font-size: 28px;
+     }
+ }

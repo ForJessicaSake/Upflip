@@ -1,0 +1,90 @@
+.registry-wrapper {
+    text-align: center;
+    margin: 5% 4% 0% 5%;
+    padding-top: 5%;
+    line-height: 1.6;
+    background-color: #fce7e2;
+    height: 300px;
+    border-radius: 35px;
+    color: #2a3741;
+}
+
+.registry-wrapper h1 {
+    font-size: 30px;
+}
+
+.registry-wrapper p {
+    font-size: 17px;
+}
+
+.registry-wrapper button {
+    font-size: 15px;
+    margin-top: 3%;
+    width: 200px;
+    padding: 12px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #f18739;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .registry-wrapper {
+        line-height: 1.8;
+    }
+    .registry-wrapper h1 {
+        font-size: 26px;
+    }
+    .registry-wrapper p {
+        font-size: 17px;
+    }
+    .registry-wrapper button {
+        font-size: 15px;
+        margin-top: 6%;
+        width: 200px;
+        padding: 12px;
+        border-radius: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .registry-wrapper {
+        line-height: 1.8;
+        height: 450px;
+    }
+    .registry-wrapper h1 {
+        font-size: 40px;
+    }
+    .registry-wrapper p {
+        font-size: 26px;
+    }
+    .registry-wrapper button {
+        font-size: 22px;
+        margin-top: 6%;
+        width: 250px;
+        padding: 15px;
+        border-radius: 17px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .registry-wrapper {
+        line-height: 1.8;
+        height: 500px;
+    }
+    .registry-wrapper h1 {
+        font-size: 50px;
+    }
+    .registry-wrapper p {
+        font-size: 30px;
+    }
+    .registry-wrapper button {
+        font-size: 25px;
+        margin-top: 6%;
+        width: 250px;
+        padding: 15px;
+        border-radius: 17px;
+    }
+}
