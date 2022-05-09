@@ -32,7 +32,64 @@ a {
     font-size: 25px;
 }
 
-@media only screen and (max-width: 960px) and (min-width: 320px) {
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .NavbarItems {
+        position: relative;
+    }
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 660px;
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        background-color: #fce7e2;
+        ;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        cursor: pointer;
+        padding: 3% 4% 0% 4%;
+        align-items: center;
+    }
+    .nav-menu.active {
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+    a {
+        color: #2a3741;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .Nav-links {
+        text-align: center;
+        padding: 1.5rem;
+        width: 100%;
+        display: table;
+    }
+    .Nav-links:hover {
+        background-color: white;
+        border-radius: 0;
+    }
+    .Menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 2.5rem;
+        cursor: pointer;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 960px) and (min-width: 481px) {
     .NavbarItems {
         position: relative;
     }
